@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Fábio Cabrero | Digital Business Card</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-primary-fixed": "#001a42",
+              "on-secondary": "#213145",
+              "surface-bright": "#31394d",
+              "on-tertiary-fixed-variant": "#564427",
+              "on-background": "#dae2fd",
+              "on-tertiary-container": "#a38c6a",
+              "on-primary": "#002e6a",
+              "surface-tint": "#adc6ff",
+              "surface-dim": "#0b1326",
+              "on-surface-variant": "#c5c6cd",
+              "error": "#ffb4ab",
+              "inverse-surface": "#dae2fd",
+              "surface-container-high": "#222a3d",
+              "on-primary-container": "#4b8dff",
+              "inverse-on-surface": "#283044",
+              "on-secondary-container": "#a9bad3",
+              "error-container": "#93000a",
+              "on-surface": "#dae2fd",
+              "background": "#0b1326",
+              "on-secondary-fixed": "#0b1c30",
+              "tertiary-container": "#35260c",
+              "outline": "#8f9097",
+              "tertiary-fixed-dim": "#ddc39d",
+              "on-tertiary": "#3e2e13",
+              "surface-container-low": "#131b2e",
+              "primary-fixed-dim": "#adc6ff",
+              "on-primary-fixed-variant": "#004395",
+              "primary": "#adc6ff",
+              "secondary": "#b7c8e1",
+              "surface-container-lowest": "#060e20",
+              "outline-variant": "#45474c",
+              "on-tertiary-fixed": "#271902",
+              "inverse-primary": "#005ac2",
+              "primary-fixed": "#d8e2ff",
+              "secondary-container": "#3a4a5f",
+              "on-secondary-fixed-variant": "#38485d",
+              "secondary-fixed-dim": "#b7c8e1",
+              "surface": "#0b1326",
+              "tertiary": "#ddc39d",
+              "on-error-container": "#ffdad6",
+              "surface-container": "#171f33",
+              "surface-variant": "#2d3449",
+              "primary-container": "#00275b",
+              "on-error": "#690005",
+              "surface-container-highest": "#2d3449",
+              "secondary-fixed": "#d3e4fe",
+              "tertiary-fixed": "#fadfb8"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      body {
+        background-color: #0b1326;
+        color: #dae2fd;
+        -webkit-font-smoothing: antialiased;
+      }
+      .glass-nav {
+        background: rgba(45, 52, 73, 0.6);
+        backdrop-filter: blur(12px);
+      }
+      body {
+        min-height: max(884px, 100dvh);
+      }
+    </style>
+</head>
+<body class="font-body selection:bg-primary selection:text-on-primary">
+<!-- TopAppBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#0b1326] flex justify-between items-center px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full overflow-hidden bg-surface-container-highest">
+<img alt="Fábio Cabrero Profile" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAIhF4gRfGVhnobTTkkOTEs9ZZ_60d94V_ZCbphosuCS-MDvGvUt9DwhDAygOX2FZAwHMD_aqA6QfzBVCIOq5D4FU_p2f8uJYJFh4l9p7jfItpGfORrzjUqP7GiwWzmiaU1Ji09XvAJ3OWajI6TU0r6oAdEAIa3zLCJQwOS9BIQN4-WWXwKdYfs23Pq5Ypz804ZwzymbbrkK13YMOT4kYZ4s9UG8eMjHHwls45hWwvgIDjZeiirsytoLSOhK9nifrEj7_NTdrxJC4"/>
+</div>
+<span class="text-xl font-bold tracking-tighter text-[#dae2fd] font-headline">Fábio Cabrero</span>
+</div>
+<button class="text-[#adc6ff] hover:bg-[#31394d] transition-colors p-2 rounded-full active:scale-95 duration-200">
+<span class="material-symbols-outlined" data-icon="share">share</span>
+</button>
+</nav>
+<main class="pt-24 pb-32 px-6 max-w-md mx-auto">
+<!-- Hero Section -->
+<section class="mb-12">
+<div class="bg-surface-container rounded-full p-8 mb-8 text-left">
+<div class="w-32 h-32 rounded-full overflow-hidden mb-8 border-4 border-surface-variant shadow-2xl">
+<img alt="Fábio Cabrero Hero" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA13NHUY9BYSFgA1NMb0dBuCgN-9IljMRpn9NEuFK10Fe6kEHv96nYMD4TpUwWCH_oqVfzU4A57hOmPyccSYO890Jn5DRYyRZ4-6OQPKy3bNRPXwSyxAojx8-uyOkoeskadW1-v-2MJ9cxAw8Tbtk_zzW3AXpmq5YixMxjuzHiKcEBOHcmooXUgWxpNi6-NR6W510_tthxHrFfYEfUnwmJpHbH1H4f2NJCy6SIEcuMqYEnKR3DTkrJ7ZxHEhNPSmtAphuqwbTYchR8"/>
+</div>
+<h1 class="font-headline font-extrabold text-5xl tracking-tighter leading-none mb-4 text-on-surface">
+                Fábio<br/>Cabrero
+            </h1>
+<p class="text-on-primary-container font-medium text-lg tracking-tight mb-2">
+                Creative Strategy, Leadership &amp; T&amp;D
+            </p>
+<div class="flex flex-wrap gap-2 mt-4">
+<span class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-xs font-medium uppercase tracking-wider">Treinamento e Desenvolvimento</span>
+<span class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-xs font-medium uppercase tracking-wider">Liderança Criativa</span>
+<span class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-xs font-medium uppercase tracking-wider">Expertise em TI</span>
+</div>
+</div>
+</section>
+<!-- Primary Action -->
+<section class="mb-10">
+<a class="group relative flex items-center justify-between w-full bg-gradient-to-tr from-[#adc6ff] to-[#00275b] p-5 rounded-full shadow-lg transition-transform active:scale-95 duration-200 overflow-hidden" href="mailto:contact@fabiocabrero.com">
+<div class="flex items-center gap-4 z-10">
+<span class="material-symbols-outlined text-white" data-icon="mail" style="font-variation-settings: 'FILL' 1;">mail</span>
+<span class="text-white font-bold tracking-tight text-lg">Trabalhe comigo</span>
+</div>
+<span class="material-symbols-outlined text-white/50 group-hover:translate-x-1 transition-transform z-10" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</section>
+<!-- Direct Contact Row -->
+<section class="grid grid-cols-3 gap-3 mb-12">
+<a class="flex flex-col items-center justify-center bg-surface-container-high py-4 rounded-full hover:bg-surface-bright transition-colors" href="mailto:fabio.cabrero@sp.senai.br">
+<span class="material-symbols-outlined text-primary mb-1" data-icon="alternate_email">alternate_email</span>
+<span class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">Email</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-surface-container-high py-4 rounded-full hover:bg-surface-bright transition-colors" href="tel:+5511950837595">
+<span class="material-symbols-outlined text-primary mb-1" data-icon="call">call</span>
+<span class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">Telefone</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-surface-container-high py-4 rounded-full hover:bg-surface-bright transition-colors" href="https://wa.me/5511950837595">
+<span class="material-symbols-outlined text-primary mb-1" data-icon="chat">chat</span>
+<span class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">WhatsApp</span>
+</a>
+</section>
+<!-- Social Links Grid (Asymmetric) -->
+<section class="grid grid-cols-2 gap-4 mb-12">
+<!-- LinkedIn -->
+<a class="flex flex-col justify-between bg-surface-container-high p-6 rounded-full aspect-square hover:bg-surface-bright transition-colors group" href="https://www.linkedin.com/in/fabiocabrero/">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="brand_awareness">brand_awareness</span>
+<div class="mt-auto">
+<p class="text-on-surface-variant text-xs font-bold uppercase tracking-widest mb-1">LinkedIn</p>
+<p class="text-on-surface font-semibold text-sm">Rede Profissional</p>
+</div>
+</a>
+<!-- Instagram -->
+<a class="flex flex-col justify-between bg-surface-container-high p-6 rounded-full aspect-square hover:bg-surface-bright transition-colors group" href="https://www.instagram.com/fabio.cabrero/">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="camera">camera</span>
+<div class="mt-auto">
+<p class="text-on-surface-variant text-xs font-bold uppercase tracking-widest mb-1">Instagram</p>
+<p class="text-on-surface font-semibold text-sm">Portfólio Visual</p>
+</div>
+</a>
+<!-- Facebook -->
+<a class="flex flex-col justify-between bg-surface-container-high p-6 rounded-full aspect-square hover:bg-surface-bright transition-colors group" href="https://www.facebook.com/fabio.cabrero/">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="groups">groups</span>
+<div class="mt-auto">
+<p class="text-on-surface-variant text-xs font-bold uppercase tracking-widest mb-1">Facebook</p>
+<p class="text-on-surface font-semibold text-sm">Comunidade</p>
+</div>
+</a>
+<!-- YouTube -->
+<a class="flex flex-col justify-between bg-surface-container-high p-6 rounded-full aspect-square hover:bg-surface-bright transition-colors group" href="https://www.youtube.com/@F%C3%A1bioCabrero">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="play_circle">play_circle</span>
+<div class="mt-auto">
+<p class="text-on-surface-variant text-xs font-bold uppercase tracking-widest mb-1">YouTube</p>
+<p class="text-on-surface font-semibold text-sm">Insights Criativos</p>
+</div>
+</a>
+</section>
+<!-- Certificações e Tecnologia Section -->
+<section class="bg-surface-container-highest/30 p-8 rounded-full border border-primary/20 mb-12">
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-primary" data-icon="verified">verified</span>
+<h3 class="font-headline font-bold text-xl text-on-surface">Certificações e Tecnologia</h3>
+</div>
+<div class="space-y-4">
+<div>
+<p class="text-primary text-xs font-bold uppercase tracking-widest mb-1">Especialidade</p>
+<p class="text-on-surface-variant text-sm leading-relaxed">Implantação e aplicação de tecnologias inovadoras em processos operacionais e criativos.</p>
+</div>
+<div>
+<p class="text-primary text-xs font-bold uppercase tracking-widest mb-1">Qualificações</p>
+<p class="text-on-surface-variant text-sm leading-relaxed">Possuo diversas Certificações em TI que fundamentam minha abordagem técnica à liderança de design.</p>
+</div>
+</div>
+</section>
+<!-- Bio Section -->
+<section class="bg-surface-container-low p-8 rounded-full border border-outline-variant/10 mb-12">
+<h3 class="font-headline font-bold text-xl text-on-surface mb-4">Sobre o Fábio</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed font-light mb-4">
+            Com mais de uma década liderando equipes multidisciplinares, busco a sinergia perfeita entre liderança estratégica, visão criativa e um sólido background técnico em TI. Unindo esses pilares, foco na construção de produtos e treinamentos que não são apenas funcionais, mas profundamente ressonantes.
+        </p>
+<p class="text-on-surface-variant text-sm leading-relaxed font-light">
+            Combinando expertise tecnológica com desenvolvimento humano, transformo desafios complexos em soluções escaláveis e inovadoras, sempre focado na excelência técnica e nos resultados de alto impacto.
+        </p>
+</section>
+<!-- Hobby Section -->
+<section class="flex flex-col items-center text-center opacity-60 px-8">
+<div class="w-12 h-[1px] bg-outline-variant mb-6"></div>
+<div class="flex items-center gap-2 mb-1">
+<span class="material-symbols-outlined text-primary text-lg" data-icon="settings_input_antenna">settings_input_antenna</span>
+<h4 class="text-xs font-bold uppercase tracking-[0.2em] text-on-surface-variant">Entusiasta de Radioamadorismo</h4>
+</div>
+<p class="text-[10px] text-on-surface-variant font-medium">PU2OXZ • Radioamadorismo</p>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-12 px-8 flex flex-col items-center text-center space-y-4 mb-24 mt-10">
+<p class="font-['Inter'] text-xs text-[#c5c6cd]">
+        © 2024 Fábio Cabrero • Creative Strategy &amp; Leadership
+    </p>
+<div class="flex gap-6">
+<a class="text-xs text-[#c5c6cd] hover:text-[#dae2fd] transition-colors" href="#">Política de Privacidade</a>
+<a class="text-xs text-[#c5c6cd] hover:text-[#dae2fd] transition-colors" href="#">Termos</a>
+</div>
+</footer>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-6 left-1/2 -translate-x-1/2 w-[90%] rounded-full bg-[#2d3449]/60 backdrop-blur-xl flex justify-around items-center px-4 py-2 z-50 shadow-[0_20_40px_rgba(6,14,32,0.4)]">
+<button class="bg-gradient-to-tr from-[#adc6ff] to-[#00275b] text-white rounded-full p-3 transition-transform scale-110 active:scale-90">
+<span class="material-symbols-outlined" data-icon="contact_page">contact_page</span>
+</button>
+<button class="text-[#c5c6cd] p-3 hover:text-[#dae2fd] transition-transform active:scale-90">
+<span class="material-symbols-outlined" data-icon="link">link</span>
+</button>
+<button class="text-[#c5c6cd] p-3 hover:text-[#dae2fd] transition-transform active:scale-90">
+<span class="material-symbols-outlined" data-icon="mail">mail</span>
+</button>
+<button class="text-[#c5c6cd] p-3 hover:text-[#dae2fd] transition-transform active:scale-90">
+<span class="material-symbols-outlined" data-icon="download">download</span>
+</button>
+</nav>
+</body></html>
